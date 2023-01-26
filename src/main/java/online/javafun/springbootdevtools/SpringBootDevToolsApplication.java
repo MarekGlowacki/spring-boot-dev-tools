@@ -7,4 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootDevToolsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDevToolsApplication.class, args
+        SpringApplication.run(SpringBootDevToolsApplication.class, args);
+    }
+
+}

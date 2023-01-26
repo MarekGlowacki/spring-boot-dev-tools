@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Spring Boot DevTools</title>
 </head>
 <body>
-$END$
+    <h1>Strona przed zmianami</h1>
+    <h2>Nowy nagłówek</h2>
+    <p th:text="${message}"></p>
 </body>
 </html>
